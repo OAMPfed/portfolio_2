@@ -1,0 +1,20 @@
+@import 'App';
+@import 'soft-ui';
+@import 'PagesHomepage';
+@import 'PagesContact';
+@import 'PagesCV';
+@import 'Logo';
+@import 'Align';
+@import 'Font';
+@import 'Mobile';
+
+
+
+
+//RESET
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo Thambi 2', cursive;
+  scroll-behavior: smooth;
+}

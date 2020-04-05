@@ -1,0 +1,25 @@
+.contact{
+    &-input{
+        @extend .soft-bg;
+        box-shadow: inset -3px -3px 3px $light-shadow, inset 3px 3px 3px $dark-shadow;
+        padding: 5px 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    &-button{
+        box-shadow: -5px -5px 16px $light-shadow, 5px 5px 16px $dark-shadow;
+        padding: 10px 50px;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        margin-bottom: 20px;
+        &:hover{
+            box-shadow: inset -3px -3px 3px $light-shadow, inset 3px 3px 3px $dark-shadow;
+            cursor: pointer;
+        }
+    }
+}

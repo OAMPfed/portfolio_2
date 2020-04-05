@@ -1,0 +1,37 @@
+$primary-bg: #E0E5EC;
+$light-shadow: #ffffff;
+$dark-shadow: #A3B1C6;
+
+.primary-box{
+    box-shadow: -5px -5px 16px $light-shadow, 5px 5px 16px $dark-shadow;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+    &-padding{
+        @extend .primary-box;
+        padding: 50px;
+    }
+}
+
+.soft-bg{
+    background-color: $primary-bg;
+}
+
+.primary-button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+        box-shadow: inset -3px -3px 3px $light-shadow, inset 3px 3px 3px $dark-shadow;
+    }
+    &-link{
+        @extend .primary-button;
+        padding: 2px 2px;
+        text-decoration: none;
+        &:hover{
+            box-shadow: none;
+            text-decoration: underline;
+        }
+    }
+}

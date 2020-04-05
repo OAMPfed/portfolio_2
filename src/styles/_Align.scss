@@ -1,0 +1,8 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-col{
+        flex-direction: column;
+    }
+}
