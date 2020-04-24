@@ -24,6 +24,9 @@ $dark-shadow: #A3B1C6;
         cursor: pointer;
         box-shadow: inset -3px -3px 3px $light-shadow, inset 3px 3px 3px $dark-shadow;
     }
+    &-active{
+        box-shadow: inset -3px -3px 3px $light-shadow, inset 3px 3px 3px $dark-shadow; 
+    }
     &-link{
         @extend .primary-button;
         padding: 2px 2px;
